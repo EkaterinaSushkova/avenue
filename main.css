@@ -67,6 +67,14 @@ a {
 .icon {
     margin-right: 10px;
 }
+.promo {
+    padding: 60px;
+    display: flex;
+}
+.description {
+    font-size: 20px;
+
+}
 .thumbnails {
     display: flex;
     margin: 1rem auto 0;
