@@ -1,4 +1,17 @@
-
+/* 2 Columns Layout */
+.cols-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  /* Slider Width Fix */
+  .splide__slide img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
  h2 {
      text-transform: uppercase;
      font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
